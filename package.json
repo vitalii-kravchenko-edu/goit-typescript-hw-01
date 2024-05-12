@@ -1,0 +1,19 @@
+{
+  "name": "goit-typescript-hw-01",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "push": "echo 'Enter commit message: ' && read message && git add . && git commit -m \"$message\" && git push"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
